@@ -1,0 +1,98 @@
+
+h1{
+    text-align: center;
+    font-family:'Tw Cen MT';
+    text-shadow: 3px 3px 5px #05124b;
+    font-size:4rem;
+    color: #1B7593;
+    letter-spacing:5px;
+}
+img{
+    width:500px;
+    opacity:.8;
+    margin: auto;
+    display: block;
+}
+
+
+#footer{
+    font-family:'Sylfaen';
+    margin-top:100px;
+    margin-left:40%;
+    font-size:20pt;
+    color:rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px #05124b;
+    font-weight: bolder;
+}
+body{
+    background-image:url('./nics/bg.jpg');
+    background-size: cover;
+    font-family: 'Tw Cen MT';
+  
+
+}
+p, h2{
+    text-align: center;
+    margin-left: 12.5%;
+    width: 75%;
+
+}
+h2{
+    font-size: 3rem;
+    color: #05124b;
+
+}
+#ghibli2{
+    width:100%;
+}
+p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+@media(min-width:360px) and (max-width:649px){
+    img{
+        width:250px;
+    }
+    p{
+        font-size:10pt;
+        font-weight:bold;
+    }
+    #footer{
+        margin-top:50px;
+        font-size: 20pt;
+        margin-left: 100px;
+    }
+}
+@media(min-width:650px) and (max-width:849px){
+    div{
+        margin-left:5%;
+    }
+    img{
+        width:300px;
+    }
+    p{
+        font: size 12px;
+    }
+}
+@media(min-width:850px) and (max-width:1049px){
+    div{
+        margin-left:10%;
+    }
+    img{
+        width:400px;
+    }
+    p{
+        font-size:12px;
+    }
+    #footer{
+        margin-top:130px;
+    }
+}
+@media(min-width:1050px) and (max-width:1249px){
+    img{
+        width:500px;
+    }
+    p{
+        font-size:12pt;
+    }
+}
